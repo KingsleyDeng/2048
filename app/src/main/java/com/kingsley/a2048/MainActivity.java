@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements Game2048Layout.On
 
     @Override
     public void onGameOver() {
-        
+
         new AlertDialog.Builder(this).setTitle("GAME OVER")
                 .setMessage("YOU HAVE GOT " + mScore.getText())
                 .setPositiveButton("RESTART", new DialogInterface.OnClickListener() {
